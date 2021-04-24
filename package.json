@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "一些文档",
+  "main": "index.js",
+  "author": "shaojie.wang",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "yarn docs:build && bash scripts/deploy-gh.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
