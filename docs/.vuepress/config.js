@@ -1,7 +1,7 @@
 module.exports = {
-  base: "/",
+  base: "/docs/",
   title: "以前是王",
-  description: "Awesome docs",
+  description: "一些文档",
   themeConfig: {
     lineNumbers: false,
     lastUpdated: true,
@@ -17,9 +17,7 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           "/pages/http/web-server",
-          "/pages/http/cors", // 这里只写路径,他会自己把md文件里的标题作为侧边栏菜单名称
-          "/pages/http/request",
-          "/pages/http/optipns",
+          "/pages/http/cors" // 这里只写路径,他会自己把md文件里的标题作为侧边栏菜单名称
         ]
       },
       {
@@ -33,7 +31,6 @@ module.exports = {
           "/pages/http/cache-about-header",
           "/pages/http/priority-of-cache",
           "/pages/http/browser-about-cache",
-          "/pages/http/hash",
           "/pages/http/expires",
           "/pages/http/last-modified",
           "/pages/http/cache-contorl",
